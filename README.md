@@ -4,7 +4,7 @@ This is a ping CLI program written in C and built using Xcode 10.3, tested succe
 
 ## Usage Instructions
 
-1. To Compile the C file : ```gcc -o myPingApp ping_CLI.c```
+1. To Compile the C file : ```gcc -o myPingApp Ping_me.c```
 2. To run the ping application: ```sudo ./myPingApp  www.example.com or X.X.X.X```
 3. ```CTRL + C ``` to stop running the infinite loop
 
