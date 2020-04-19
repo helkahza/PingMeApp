@@ -59,7 +59,7 @@ u_short checksum(u_short *data, int length) {
     u_short answer = 0;
     
     /*
-     *  This is a simple program using a 32 bit accumulator (sum),
+     *  This program uses a 32 bit accumulator (sum),
      *  the checksum function add sequential 16 bit words to it, and at the end, fold
      *  back all the carry bits from the top 16 bits into the lower 16 bits.
      */
